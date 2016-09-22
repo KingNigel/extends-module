@@ -1,7 +1,6 @@
 'use strict'
 import test from 'ava';
 const fs = require('fs');
-
 const em = require('./index.js');
 test.serial('extends1', (t) => {
      let obj={};
