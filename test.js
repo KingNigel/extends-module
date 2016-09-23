@@ -34,13 +34,7 @@ test.serial('extends5', (t) => {
   try {
     em.extends(obj, 1, fs);
   } catch (error) {
+     if(error.message=="参数异常")
      t.pass();
   }
 });
-// const em2 = require('./lib/extends.js');
-// test.serial('extends1', (t) => {
-//      let obj={};
-//      em2(obj,"fs",fs);
-//      console.log(obj);
-//      //t.true(obj.accessSync('./package.json')=== undefined);
-// });
