@@ -23,9 +23,11 @@ fs.copy();
 var em= require('extends-module');
 ```
 ### extends
-em.extends(children,parent)
-children类型为object用来接收parent里面的属性和方法的
-parent类型为object
+em.extends(children[,parentName],parent)
+- children类型为object,用来接收parent里面的属性和方法的
+- parentName类型为string,默认为'parent',用于当children对象中有与parent相同的属性，
+  给children添加parentName值的属性。
+- parent类型为object
 ```js
 var fs= require('fs');
 var em= require('extends-module');
