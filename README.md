@@ -1,4 +1,8 @@
 # extends-module
+
+[![Build Status](https://travis-ci.org/KingNigel/extends-module.svg?branch=master)](https://travis-ci.org/KingNigel/extends-module)
+[![Coverage Status](https://coveralls.io/repos/github/KingNigel/extends-module/badge.svg?branch=master)](https://coveralls.io/github/KingNigel/extends-module?branch=master)
+
 一个简单的辅助模块间继承的包。
 ## 初衷
 当我想要使用自己写的一个模块进行文件操作，同时又要使用fs模块的时候，我需要引入fs模块和我自己写的模块，
