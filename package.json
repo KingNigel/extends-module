@@ -1,6 +1,6 @@
 {
   "name": "extends-module",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "module extends tools",
   "main": "index.js",
   "keywords": ["extends","module","package tools"],
